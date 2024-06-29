@@ -1,5 +1,18 @@
 
 class Player 
-  @player1 = 3
-  @player2 = 3
+
+  attr_accessor :lives
+
+  def initialize
+
+    @lives = 3
+
+  end
+
+  def sub
+
+    self.lives -= 1
+
+  end
+
 end
